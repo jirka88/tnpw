@@ -1,5 +1,15 @@
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
 .d-flex {
     display: flex;
+}
+.d-grid {
+    display: grid;
 }
 .align-items-center {
     align-items: center;
@@ -10,6 +20,25 @@
 .justify-content-end {
     justify-content: end;
 }
+.justify-content-center {
+    justify-content: center;
+}
+.flex-direction-column {
+    flex-direction: column;
+}
 .position-fixed {
     position: fixed;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+.h-100vdh {
+    height: 100dvh;
+}
+.w-50 {
+    width: 50%;
 }
