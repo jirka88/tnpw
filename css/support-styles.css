@@ -1,0 +1,15 @@
+.d-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.position-fixed {
+    position: fixed;
+}
