@@ -4,7 +4,7 @@ window.addEventListener("scroll", event => {
     let scrollTop = window.scrollY;
     if(scrollTop > 1) {
         navbar.style.transition = ".4s"
-        navbar.style.background = "black";
+        navbar.style.background = "#376996";
     }
     else {
         navbar.style.background = "none";
