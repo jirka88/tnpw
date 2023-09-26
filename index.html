@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/support-styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="https://kit.fontawesome.com/1d1b420d7c.js" crossorigin="anonymous"></script>
     <script src="javascript/navbar.js" defer></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -24,7 +26,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -33,22 +35,23 @@
 <body>
 <nav class="position-fixed">
     <div class="container d-flex align-items-center">
-        <img src="img/logo.png" alt="Logo">
-        <ul class="d-flex links ">
+        <a id="0" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+        <ul class="d-flex links">
             <li>
-                <a href="projects.html">Projekty</a>
+                <a id="1" href="pages/projects.html">Projekty</a>
             </li>
             <li>
-                <a href="projects.html">Zkušenosti</a>
+                <a id="2" href="pages/experience.html">Zkušenosti</a>
             </li>
             <li>
-                <a href="projects.html">Kontakt</a>
+                <a id="3" href="pages/contact.html">Kontakt</a>
             </li>
         </ul>
         <ul class="icons d-flex justify-content-end">
             <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
             <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
         </ul>
     </div>
 </nav>
@@ -56,6 +59,7 @@
     <div class="container">
         <div class="d-grid align-items-center h-100vdh w-50">
             <div class="title">
+                <img src="img/upravena_Navratil-min.jpg" alt="Má fotografie">
                 <H1 data-aos="fade-up">Jiří Navrátil</H1>
                 <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">Fullstack developer</h2>
                 <a href="#about" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600">O mně <i

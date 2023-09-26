@@ -1,6 +1,8 @@
 :root {
     --primary-color: white;
     --primary-background: #1f487e;
+    --darker-background: #1D3461;
+    --light-background: #376996;
     --title: 5.5em;
     --subtitle: 2em;
 }

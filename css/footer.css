@@ -1,0 +1,26 @@
+footer {
+    background-color: var(--darker-background);
+    box-sizing: border-box;
+    padding: 1em 0 0 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+footer p {
+    margin: 0;
+}
+footer > p{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+footer hr {
+    width: 100%;
+    margin: 0.2em auto;
+    overflow: hidden;
+}
+footer .information {
+    padding: 1em;
+    line-height: 2em;
+    font-size: 0.8em;
+}
