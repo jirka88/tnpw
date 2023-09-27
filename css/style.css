@@ -119,6 +119,9 @@
         line-height: 1em;
         padding: .4em 0 .2em 0;
     }
+    .introduction .title a {
+        padding: 1em 3em;
+    }
     #about .img {
         display: none;
     }
@@ -135,10 +138,5 @@
 @media only screen and (max-width: 768px) {
     .introduction h1 {
         font-size: 4em !important;
-    }
-    .introduction .title a {
-        display: block;
-        width: 100%;
-        padding: 14px 0px;
     }
 }
