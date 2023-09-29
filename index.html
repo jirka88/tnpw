@@ -1,105 +1,240 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Jiří Návrátil</title>
-    <meta name="author" content="Jiří Navrátil">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="css/support-styles.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <script src="https://kit.fontawesome.com/1d1b420d7c.js" crossorigin="anonymous"></script>
+    <meta name="author" content="Jiří Navrátil" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/support-styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/1d1b420d7c.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="javascript/navbar.js" defer></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png"> 
-    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-</head>
-<body>
-<nav class="position-fixed">
-    <div class="container d-flex align-items-center">
-        <a id="0" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <nav class="position-fixed">
+      <div class="container d-flex align-items-center">
+        <a id="0" href="index.html"><img src="img/logo.png" alt="Logo" /></a>
         <ul class="d-flex links">
-            <li>
-                <a id="1" href="pages/projects.html">Projekty</a>
-            </li>
-            <li>
-                <a id="2" href="pages/experience.html">Zkušenosti</a>
-            </li>
-            <li>
-                <a id="3" href="pages/contact.html">Kontakt</a>
-            </li>
+          <li>
+            <a id="1" href="pages/projects.html">Projekty</a>
+          </li>
+          <li>
+            <a id="2" href="pages/experience.html">Zkušenosti</a>
+          </li>
+          <li>
+            <a id="3" href="pages/contact.html">Kontakt</a>
+          </li>
         </ul>
         <ul class="icons d-flex justify-content-end">
-            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+          <li>
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/jiří-navrátil-b63145223"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          </li>
         </ul>
-    </div>
-</nav>
-<main class="introduction">
-    <div class="container">
+      </div>
+    </nav>
+    <main class="introduction">
+      <div class="container">
         <div class="d-grid align-items-center w-50">
-            <div class="title">
-                <img src="img/upravena_Navratil-min.jpg" alt="Má fotografie">
-                <H1 data-aos="fade-up">Jiří Navrátil</H1>
-                <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">Fullstack developer</h2>
-                <a href="#about" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600">O mně <i
-                        class="fa-solid fa-arrow-down"></i></a>
-            </div>
+          <div class="title">
+            <img src="img/upravena_Navratil-min.jpg" alt="Má fotografie" />
+            <h1 data-aos="fade-up">Jiří Navrátil</h1>
+            <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+              Fullstack developer
+            </h2>
+            <a
+              href="#about"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-duration="600"
+              >O mně <i class="fa-solid fa-arrow-down"></i
+            ></a>
+          </div>
         </div>
-
-    </div>
-</main>
-<section id="about">
-    <div class="container d-flex">
+      </div>
+    </main>
+    <section id="about">
+      <div class="container d-flex">
         <div class="about d-flex justify-content-center flex-direction-column">
-            <h2 data-aos="fade-up">O mně</h2>
-            <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus
-                luctus egestas leo. Aliquam erat volutpat. Mauris metus. Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Maecenas lorem. Etiam egestas wisi a
-                erat. Praesent dapibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Integer lacinia. Aenean id metus id velit ullamcorper pulvinar. Mauris dolor felis, sagittis at,
-                luctus sed, aliquam non, tellus. Nullam sit amet magna in magna gravida vehicula. Donec ipsum massa,
-                ullamcorper in, auctor et, scelerisque sed, est. Duis pulvinar. Pellentesque ipsum.</p>
+          <h2 class="caption" data-aos="fade-up">O mně</h2>
+          <p data-aos="fade-up" data-aos-delay="400">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus
+            luctus egestas leo. Aliquam erat volutpat. Mauris metus. Sed ut
+            perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+            inventore veritatis et quasi architecto beatae vitae dicta sunt
+            explicabo. Maecenas lorem. Etiam egestas wisi a erat. Praesent
+            dapibus. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Integer lacinia. Aenean id metus id
+            velit ullamcorper pulvinar. Mauris dolor felis, sagittis at, luctus
+            sed, aliquam non, tellus. Nullam sit amet magna in magna gravida
+            vehicula. Donec ipsum massa, ullamcorper in, auctor et, scelerisque
+            sed, est. Duis pulvinar. Pellentesque ipsum.
+          </p>
         </div>
         <div class="img d-flex justify-content-end align-items-center">
-            <div class="me" data-aos="zoom-in" data-aos-duration="500">
-            </div>
+          <div class="me" data-aos="zoom-in" data-aos-duration="500"></div>
         </div>
-    </div>
-</section>
-<footer>
-    <p id="created">© Jiří Navrátil </p>
-    <hr>
-    <div class="information">
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container d-grid justify-content-center align-items-center">
+        <div>
+          <h2 class="caption text-center" data-aos="fade-up">
+            O co se zajímám?
+          </h2>
+          <div class="info d-flex justify-content-center flex-wrap">
+            <div
+              class="box d-flex justify-content-center flex-direction-column align-items-center"
+              data-aos="fade-up"
+            >
+              <div
+                class="circle d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <a href="#">Frontend</a>
+            </div>
+            <div
+              class="box d-flex justify-content-center flex-direction-column align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div
+                class="circle d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <a href="#">Backend</a>
+            </div>
+            <div
+              class="box d-flex justify-content-center flex-direction-column align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
+              <div
+                class="circle d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-regular fa-object-group"></i>
+              </div>
+              <a href="#">Design</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p id="created">©Jiří Navrátil</p>
+      <hr />
+      <div class="information">
         <p>studentský zápočtový projekt</p>
         <p>naposledy aktualizováno xx.xx.2023</p>
-    </div>
-</footer>
-</body>
-<script>
+      </div>
+    </footer>
+  </body>
+  <script>
     AOS.init();
     let dt = new Date();
-    document.getElementById("created").innerText = "© Jiří Navrátil " + dt.getFullYear();
-</script>
+    document.getElementById("created").innerText =
+      "© Jiří Navrátil " + dt.getFullYear();
+  </script>
 </html>
