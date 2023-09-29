@@ -24,3 +24,7 @@ footer .information {
     line-height: 2em;
     font-size: 0.8em;
 }
+footer .information a {
+    color: white;
+    text-decoration: underline;
+}

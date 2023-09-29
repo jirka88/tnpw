@@ -38,6 +38,7 @@ a {
 }
 nav a.active {
     text-decoration: 2px underline;
+    text-underline-position: under;
 
 }
 .d-flex {
@@ -70,6 +71,9 @@ nav a.active {
 .text-center {
     text-align: center;
 }
+.font-weight-bold {
+    font-weight: bold;
+}
 .container {
     --max-width: 100%;
 }
@@ -85,6 +89,21 @@ nav a.active {
 }
 .w-50 {
     width: 50%;
+}
+.caption {
+    position: relative;
+    white-space: nowrap;
+    text-indent: 10px;
+}
+.caption:before {
+    content: "";
+    position: absolute;
+    transform: rotate(90deg);
+    left: -0.75em;
+    bottom: 35px;
+    width: 1.6em;
+    height: 5px;
+    background: var(--primary-background);
 }
 @media only screen and (min-width: 576px) {
     .container {

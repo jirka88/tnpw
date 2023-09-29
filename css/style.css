@@ -55,7 +55,7 @@
     transition: 0.1s;
 }
 #about {
-    box-shadow: var(--primary-background) -28px 6px 202px -6px inset;
+    box-shadow: var(--primary-shadow);
     min-height: 100vh;
 }
 #about:before {
@@ -71,21 +71,6 @@
 #about .about {
     flex: 50%;
     min-height: 100dvh;
-}
-.caption {
-    position: relative;
-    white-space: nowrap;
-    text-indent: 10px;
-}
-.caption:before {
-    content: "";
-    position: absolute;
-    transform: rotate(90deg);
-    left: -0.75em;
-    bottom: 35px;
-    width: 1.6em;
-    height: 5px;
-    background: var(--primary-background);
 }
 #about .img {
     flex: 50%;
