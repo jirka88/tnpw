@@ -116,6 +116,7 @@ box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
 }
 .info .box {
     padding: 1em;
+    gap: 1em;
 }
 .info .box a {
     color: white;
@@ -158,6 +159,7 @@ box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
     width: 16em;
     border-radius: 50%;
     cursor: pointer;
+    box-shadow: rgba(55, 105, 150, 0.4) 24px 12px;
 }
 .info .box .circle:hover i {
     transform: rotate(360deg);
