@@ -41,6 +41,9 @@ nav a.active {
     text-underline-position: under;
 
 }
+.pa-1 {
+    padding: 1em;
+}
 .d-flex {
     display: flex;
 }

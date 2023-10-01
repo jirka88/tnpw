@@ -1,31 +1,58 @@
-    h1 {
+h1 {
     font-size: 4.4em;
     margin-bottom: 1em !important;
     position: relative;
-    }
-    h1:before {
+}
+
+h1:before {
     content: "";
     position: absolute;
     bottom: -1.4em;
-    left:0em;
+    left: 0em;
     border-width: 0.7em;
     border-style: solid;
     border-color: var(--primary-background) transparent transparent transparent;
-    }
-    main {
-        padding: 10em 0;
-        box-sizing: border-box;
-        box-shadow: var(--primary-shadow);
-        min-height: 100vh;
-    }
-    section {
-        padding: 1em 0;
+}
+
+main {
+    padding: 8em 0 4em 0;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 100vh;
+    box-shadow: var(--primary-shadow);
+}
+
+section {
+    padding: 1em 0;
+}
+
+.contact {
+    border-width: 5px;
+    border-color: transparent var(--primary-background) transparent transparent;
+    border-inline-end-style: solid;
+    border-inline-end-width: 10px;
+    display: grid;
+    gap: 2em;
+}
+
+.contact, .map {
+    flex: 50%;
+}
+table {
+    width: 100%;
+}
+table th {
+    text-align: left;
+}
+.smap {
+    height: 20em !important;
+}
+
+@media only screen and (max-width: 1080px) {
+    main .container > section {
+        flex-direction: column;
     }
     .contact {
-        border-width: 5px;
-        border-style: solid;
-        border-color: transparent var(--primary-background) transparent transparent;
+        border: unset;
     }
-    .contact, .map {
-        flex: 50%;
-    }
+}
