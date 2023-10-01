@@ -21,7 +21,19 @@
     <script src="javascript/navbar.js" defer></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" sizes="16x16" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="favicon-32x32.ico"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="48x48"
+      href="favicon-48x48.ico"
+    />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -99,7 +111,7 @@
     >
     <nav class="position-fixed">
       <div class="container d-flex align-items-center">
-        <a id="0" href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+        <a id="0" href="index.html"><img src="img/logo.png" alt="JN logo" /></a>
         <ul class="d-flex links">
           <li>
             <a id="1" href="pages/projects.html">Projekty</a>
@@ -138,7 +150,7 @@
         </ul>
       </div>
     </nav>
-    <main class="introduction">
+    <main class="introduction" tabindex="0">
       <div class="container">
         <div class="d-grid align-items-center w-50">
           <div class="title">
@@ -158,10 +170,10 @@
         </div>
       </div>
     </main>
-    <section id="about">
+    <section id="about" tabindex="1">
       <div class="container d-flex">
         <div class="about d-flex justify-content-center flex-direction-column">
-          <h2 class="caption" data-aos="fade-up">O mně</h2>
+          <h2 class="caption" data-aos="fade-up" data-aos-delay="0">O mně</h2>
           <p data-aos="fade-up" data-aos-delay="400">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus
             luctus egestas leo. Aliquam erat volutpat. Mauris metus. Sed ut
@@ -182,7 +194,7 @@
         </div>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" tabindex="2">
       <div class="container d-grid justify-content-center align-items-center">
         <div>
           <h2 class="caption text-center" data-aos="fade-up">
@@ -232,18 +244,18 @@
       <p id="created">©Jiří Navrátil</p>
       <hr />
       <div class="information">
-        <p>studentský zápočtový projekt</p>
-        <p>
+        <h4>studentský zápočtový projekt</h4>
+        <h5>
           naposledy aktualizováno xx.xx.2023 |
           <a href="pages/sources.html" target="_blank">zdroje</a>
-        </p>
+        </h5>
       </div>
     </footer>
+    <script>
+      AOS.init();
+      let dt = new Date();
+      document.getElementById("created").innerText =
+        "© Jiří Navrátil " + dt.getFullYear();
+    </script>
   </body>
-  <script>
-    AOS.init();
-    let dt = new Date();
-    document.getElementById("created").innerText =
-      "© Jiří Navrátil " + dt.getFullYear();
-  </script>
 </html>

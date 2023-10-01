@@ -72,8 +72,16 @@
     </nav>
     <main>
       <div class="container d-grid">
-        <h1>Znalosti</h1>
-        <section id="frontend" class="full-bleed" data-aos="fade-up">
+        <h1 data-aos="fade-right" data-aos-duration="800" data-aos-delay="0">
+          Znalosti
+        </h1>
+        <section
+          id="frontend"
+          class="full-bleed"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          tabindex="0"
+        >
           <h2 class="caption">Frontend</h2>
           <p>
             Frontend označuje část webové stránky nebo aplikace, kterou uživatel
@@ -86,6 +94,7 @@
           <div class="swiper d-flex flex-wrap">
             <div class="slide">
               <img src="/img/skills/html-icon.svg" alt="html" />
+              <span class="tooltiptext">Tooltip text</span>
             </div>
             <div class="slide">
               <img src="/img/skills/css-icon.svg" alt="css" />
@@ -104,7 +113,12 @@
             </div>
           </div>
         </section>
-        <section id="backend" data-aos="fade-up" data-aos-delay="400">
+        <section
+          id="backend"
+          data-aos="fade-up"
+          data-aos-delay="600"
+          tabindex="1"
+        >
           <h2 class="caption">Backend</h2>
           <p>
             Backend se jinak nazývaná strana serveru, která označuje část webové
@@ -128,7 +142,7 @@
             </div>
           </div>
         </section>
-        <section id="design" class="full-bleed" data-aos="fade-up">
+        <section id="design" class="full-bleed" data-aos="fade-up" tabindex="2">
           <h2 class="caption">Design</h2>
           <p class="font-weight-bold">V čem pracuji:</p>
           <div class="swiper d-flex flex-wrap">
@@ -142,8 +156,16 @@
         </section>
       </div>
       <div class="container d-flex flex-direction-column">
-        <h1>Pracovní zkušenosti:</h1>
-        <section class="d-flex justify-content-center align-items-center">
+        <h1 data-aos="fade-right" data-aos-duration="800">
+          Pracovní zkušenosti:
+        </h1>
+        <section
+          class="full-bleed d-flex justify-content-center align-items-center"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          id="cis"
+          tabindex="3"
+        >
           <div class="info">
             <h2 class="caption">CIS</h2>
             <p>
@@ -177,11 +199,11 @@
       <p id="created">©Jiří Navrátil</p>
       <hr />
       <div class="information">
-        <p>studentský zápočtový projekt</p>
-        <p>
+        <h4>studentský zápočtový projekt</h4>
+        <h5>
           naposledy aktualizováno xx.xx.2023 |
           <a href="sources.html" target="_blank">zdroje</a>
-        </p>
+        </h5>
       </div>
     </footer>
   </body>
