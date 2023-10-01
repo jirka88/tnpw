@@ -38,16 +38,13 @@ nav .links li a:before {
     content:"";
     position: absolute;
     background-color: white;
-    bottom: -2px;
+    bottom: -1px;
     width: 0%;
     height: 2px;
 }
 nav .links li a:hover:before {
     width: 100%;
     transition: .2s;
-}
-nav .active {
-    color: red;
 }
 @media only screen and (max-width: 1080px) {
     nav .links {
@@ -61,6 +58,6 @@ nav .active {
 }
 @media only screen and (max-width: 548px) {
     nav .icons {
-        display: none;
+        display: none !important;
     }
 }

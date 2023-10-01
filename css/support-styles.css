@@ -34,6 +34,12 @@ p {
 }
 a {
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+nav a.active {
+    text-decoration: 2px underline;
+    text-underline-position: under;
+
 }
 .d-flex {
     display: flex;
@@ -56,10 +62,18 @@ a {
 .flex-direction-column {
     flex-direction: column;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}
 .position-fixed {
     position: fixed;
 }
-
+.text-center {
+    text-align: center;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
 .container {
     --max-width: 100%;
 }
@@ -75,6 +89,20 @@ a {
 }
 .w-50 {
     width: 50%;
+}
+.caption {
+    position: relative;
+    text-indent: 10px;
+}
+.caption:before {
+    content: "";
+    position: absolute;
+    transform: rotate(90deg);
+    left: -0.75em;
+    bottom: 35px;
+    width: 1.6em;
+    height: 5px;
+    background: var(--primary-background);
 }
 @media only screen and (min-width: 576px) {
     .container {
