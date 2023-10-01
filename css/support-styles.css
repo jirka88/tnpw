@@ -92,7 +92,6 @@ nav a.active {
 }
 .caption {
     position: relative;
-    white-space: nowrap;
     text-indent: 10px;
 }
 .caption:before {

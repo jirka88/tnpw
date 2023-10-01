@@ -197,7 +197,7 @@ box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
         padding: .4em 0 .2em 0;
     }
     .introduction .title a {
-        padding: 1em 3em;
+        padding: 0.8em 3em;
     }
     #about .img {
         display: none;
