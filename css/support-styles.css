@@ -97,6 +97,10 @@ nav a.active {
     position: relative;
     text-indent: 10px;
 }
+input, textarea {
+    border: none;
+    outline: none;
+}
 .caption:before {
     content: "";
     position: absolute;
