@@ -8,14 +8,14 @@ h1:before {
     content: "";
     position: absolute;
     bottom: -1.4em;
-    left: 0em;
+    left: 0;
     border-width: 0.7em;
     border-style: solid;
     border-color: var(--primary-background) transparent transparent transparent;
 }
 
 main {
-    padding: 8em 0 4em 0;
+    padding: 6em 0 4em 0;
     position: relative;
     box-sizing: border-box;
     min-height: 100vh;
@@ -38,21 +38,85 @@ section {
 .contact, .map {
     flex: 50%;
 }
+
 table {
     width: 100%;
 }
+
 table th {
     text-align: left;
 }
+
 .smap {
     height: 20em !important;
+}
+
+form {
+    height: inherit;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type=text], input[type=email], textarea, input[type=submit], input[type=tel] {
+    margin: 0.8em auto;
+    width: 25em;
+    background: #f1f1f1;
+    padding: 1em 3em;
+    border: 1px solid var(--primary-background);
+    box-shadow: var(--primary-background) 5px 5px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: #ddd;
+}
+
+form input[type=submit] {
+    box-shadow: none;
+    border: 2px solid var(--darker-background);
+    background: var(--primary-background);
+    color: white;
+    margin: 0;
+    margin-top: 0.7em;
+    width: 15em;
+    margin-right: auto !important;
+    cursor: pointer;
+}
+
+form textarea {
+    resize: vertical;
+    height: 15vh;
+    min-height: 10vh;
+    max-height: 30vh;
+}
+
+form .input-container i {
+    position: absolute;
+    padding-top: 21.665px;
+    color: var(--primary-background);
+    text-align: center;
+    padding-left: 1em;
 }
 
 @media only screen and (max-width: 1080px) {
     main .container > section {
         flex-direction: column;
     }
+
     .contact {
-        border: unset;
+        border-inline-end: none;
+        border-bottom: 10px solid var(--primary-background);
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    form {
+        width: 100%;
+    }
+
+    form input, textarea {
+        width: 100% !important;
+        padding: 1em 0 !important;
     }
 }

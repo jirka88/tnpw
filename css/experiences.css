@@ -1,6 +1,6 @@
 
   main {
-      padding: 8em 0;
+      padding: 6em 0;
       box-shadow: var(--primary-shadow);
   }
   main .container:first-child {
@@ -11,7 +11,6 @@
     padding: 1em 0;
   }
   main .container:last-child {
-    grid-row: 1fr 1fr;
     gap: 1em;
   }
   main .container:last-child > section {
@@ -29,7 +28,7 @@
     content: "";
     position: absolute;
     bottom: -1.4em;
-    left:0em;
+    left:0;
     border-width: 0.7em;
     border-style: solid;
     border-color: var(--primary-background) transparent transparent transparent;
