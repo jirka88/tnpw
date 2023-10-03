@@ -24,7 +24,12 @@
 </head>
 
 <body>
-<noscript>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</noscript>
+<noscript>
+    <div class="noscript position-fixed flex-direction-column d-flex justify-content-center align-items-center">
+        <p>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</p>
+        <a href="https://www.enable-javascript.com/" target="_blank">Jak povolit javascript</a>
+    </div>
+</noscript>
 <nav class="position-fixed">
     <div class="container d-flex align-items-center">
         <a href="./../index.html"><img src="/img/logo.png" alt="Jiří Navrátil logo"></a>
@@ -36,7 +41,10 @@
                 <a id="2" href="experience.html">Znalosti</a>
             </li>
             <li>
-                <a id="3" href="contact.html">Kontakt</a>
+                <a id="3" href="certificates.html">Certifikáty</a>
+            </li>
+            <li>
+                <a id="4" href="contact.html">Kontakt</a>
             </li>
         </ul>
         <ul class="icons d-flex justify-content-end">
@@ -62,30 +70,30 @@
             Kontakt
         </h1>
         <section class="d-flex">
-            <div class="contact pa-1">
+            <div data-aos="fade-up" data-aos-delay="200" class="contact pa-1">
                 <table>
                     <tbody>
                     <tr>
-                        <th>Telefon</th>
+                        <th> <i class="fa-solid fa-phone"></i> Telefon</th>
                         <td>+420 111 222 333</td>
                     </tr>
                     <tr>
-                        <th>Emailová adresa</th>
+                        <th><i class="fa-regular fa-envelope"></i>Emailová adresa</th>
                         <td>navraji1@uhk.cz</td>
                     </tr>
                     <tr>
-                        <th>Adresa</th>
+                        <th><i class="fa-solid fa-location-dot"></i>Adresa</th>
                         <td>Palachova 1129, 500 12 Nový Hradec Králové</td>
                     </tr>
                     <tr>
-                        <th>Bankovní spojení</th>
+                        <th><i class="fa-solid fa-building-columns"></i>Bankovní spojení</th>
                         <td>65226526/0123</td>
                     </tr>
                     </tbody>
                 </table>
                 <div id="m"></div>
             </div>
-            <div class="map pa-1 d-flex justify-content-center align-items-center">
+            <div data-aos="fade-up" data-aos-delay="200" class="map pa-1 d-flex justify-content-center align-items-center">
                 <form action="" method="POST"
                       class="d-flex flex-direction-column">
                     <label for="email">Email*</label>
@@ -127,7 +135,7 @@
 </footer>
 <script>
     AOS.init();
-    document.getElementById("3").classList.add("active");
+    document.getElementById("4").classList.add("active");
 </script>
 </body>
 

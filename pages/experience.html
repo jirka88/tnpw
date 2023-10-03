@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Zkušenosti</title>
+  <title>Znalosti</title>
   <meta name="author" content="Jiří Navrátil">
   <link rel="stylesheet" href="/css/experiences.css">
   <link rel="stylesheet" href="/css/colors.css">
@@ -21,7 +21,12 @@
 </head>
 
 <body>
-  <noscript>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</noscript>
+<noscript>
+  <div class="noscript position-fixed flex-direction-column d-flex justify-content-center align-items-center">
+    <p>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</p>
+    <a href="https://www.enable-javascript.com/" target="_blank">Jak povolit javascript</a>
+  </div>
+</noscript>
   <nav class="position-fixed">
     <div class="container d-flex align-items-center">
       <a id="0" href="../index.html"><img src="/img/logo.png" alt="Logo"></a>
@@ -33,7 +38,10 @@
           <a id="2" href="experience.html">Znalosti</a>
         </li>
         <li>
-          <a id="3" href="contact.html">Kontakt</a>
+          <a id="3" href="certificates.html">Certifikáty</a>
+        </li>
+        <li>
+          <a id="4" href="contact.html">Kontakt</a>
         </li>
       </ul>
       <ul class="icons d-flex justify-content-end">
@@ -169,10 +177,13 @@
       </h4>
     </div>
   </footer>
-</body>
-<script>
-  AOS.init();
-  document.getElementById("2").classList.add("active");
-</script>
+  <script>
+    AOS.init();
+    document.getElementById("2").classList.add("active");
+    let dt = new Date();
+    document.getElementById("created").innerText =
+            "© Jiří Navrátil " + dt.getFullYear();
+  </script>
 
+</body>
 </html>

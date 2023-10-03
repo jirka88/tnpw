@@ -18,7 +18,7 @@
     color: var(--primary-color);
     font-size: var(--subtitle);
     text-shadow: 4px 4px black;
-    padding: 0em 0 1em 0;
+    padding: 0 0 1em 0;
 }
 .introduction:before {
     content: "";
@@ -44,11 +44,11 @@
 }
 .introduction .title a{
     font-weight: bold;
-    padding: 14px 2em;
+    padding: 12px 2em;
     font-size: 1.2em;
     background: white;
     color: black;
-    border-radius: 1em;
+    border-radius: 2em;
     box-shadow: 6px 6px black;
 }
 .introduction .title a:hover {
@@ -86,9 +86,9 @@
 .skills {
     min-height: 100vh;
     position: relative;
-    -webkit-box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
--moz-box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
-box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
+    -webkit-box-shadow: inset 0 0 199px 10px rgba(31,72,126,0.9);
+-moz-box-shadow: inset 0 0 199px 10px rgba(31,72,126,0.9);
+box-shadow: inset 0 0 199px 10px rgba(31,72,126,0.9);
 }
 .skills .container {
     min-height: 100vh;
@@ -123,8 +123,6 @@ box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
     color: white;
     font-family: 'Oswald', sans-serif;
     margin-top: 1em;
-    padding: 1em 2em;
-    border: 4px solid var(--light-background);
     font-size: 1.2em;
     transition: .4s;
     font-weight: 200;
@@ -151,8 +149,8 @@ box-shadow: inset 0px 0px 199px 10px rgba(31,72,126,0.9);
     transition: 0.2s;
 }
 .info .box a:hover:after {
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
   }
 .info .box .circle {
     background: var(--primary-background);
