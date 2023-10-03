@@ -4,7 +4,6 @@
       box-shadow: var(--primary-shadow);
   }
   main .container:first-child {
-      min-height: 100vh;
       gap: 1em;
   }
   main section {
@@ -19,21 +18,6 @@
   main section > img {
     width: 40%;
   }
-  h1 {
-    font-size: 4.4em;
-    margin-bottom: 1em !important;
-    position: relative;
-  }
-  h1:before {
-    content: "";
-    position: absolute;
-    bottom: -1.4em;
-    left:0;
-    border-width: 0.7em;
-    border-style: solid;
-    border-color: var(--primary-background) transparent transparent transparent;
-    }
-  
   .slide {
     text-align: center;
     width: 15em;

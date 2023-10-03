@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="/css/support-styles.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/certificates.css">
     <script src="https://kit.fontawesome.com/1d1b420d7c.js" crossorigin="anonymous"></script>
     <script src="/javascript/navbar.js" defer></script>
+    <script src="/javascript/change.js" defer></script>
     <link href="/library/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" sizes="16x16" type="image/x-icon" href="/favicon.ico">
@@ -58,6 +60,51 @@
         </ul>
     </div>
 </nav>
+<main id="information">
+    <div class="container">
+        <h1 class="title-with-arrow" data-aos="fade-right" data-aos-duration="800">Certifikáty</h1>
+        <section class="d-flex">
+            <article>
+                <h2>Introduction to network</h2>
+                <p id="date">2021</p>
+                <p id="description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus
+                    luctus egestas leo. Aliquam erat volutpat. Mauris metus. Sed ut
+                    perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                    inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Maecenas lorem. Etiam egestas wisi a erat. Praesent</p>
+            </article>
+            <div class="image d-flex justify-content-end">
+                <img id="certification" src="/img/certificates/IntroductionToNetwork.png" alt="cisco">
+            </div>
+        </section>
+    </div>
+</main>
+<hr>
+<section class="gallery">
+    <div class="container">
+        <div class="foto-gallery">
+            <div class="gallery-item">
+                <a href="#information" onclick="change(1)"><img src="/img/certificates/IntroductionToNetwork.png" alt="Cisco"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="#information" onclick="change(2)"><img src="/img/certificates/IntroductionToNetwork.png" alt="Cisco"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="#information" onclick="change(3)"><img src="/img/certificates/Coursera%202UHDG42AG36X_page-0001.jpg" alt="Tutorial css"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="#information" onclick="change(4)"><img src="/img/certificates/Coursera%20JKLR57RFHV6C_page-0001.jpg" alt="Introduction to .NET Core"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="#information" onclick="change(5)"><img src="/img/certificates/Coursera%20JVGEQWTZ36FX_page-0001.jpg" alt="React basics"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="#information" onclick="change(6)"><img src="/img/certificates/Coursera%20JVGEQWTZ36FX_page-0001.jpg" alt="React basics"></a>
+            </div>
+        </div>
+    </div>
+</section>
 <footer>
     <p id="created">©Jiří Navrátil</p>
     <hr>

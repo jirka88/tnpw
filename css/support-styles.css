@@ -120,6 +120,20 @@ input, textarea {
     font-size: 1.2em;
     box-shadow: var(--primary-shadow);
 }
+.title-with-arrow {
+    font-size: 4.4em;
+    margin-bottom: 1em !important;
+    position: relative;
+}
+.title-with-arrow:before {
+        content: "";
+        position: absolute;
+        bottom: -1.4em;
+        left:0;
+        border-width: 0.7em;
+        border-style: solid;
+        border-color: var(--primary-background) transparent transparent transparent;
+}
 
 .noscript a {
     text-decoration: underline;
