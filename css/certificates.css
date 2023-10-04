@@ -30,9 +30,13 @@ main section .image img {
     grid-template-columns: repeat(5, 1fr);
     gap: 1em;
 }
+.foto-gallery .gallery-item a {
+    display: block;
+    height: 100%;
+}
 .foto-gallery img {
     width: 100%;
-    height: auto;
+    height: 100%;
     cursor: pointer;
     border-radius: 0.5em;
     box-shadow: 0px 0px 8px rgba(31, 72, 126, 0.6);

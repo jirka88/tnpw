@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="improves">
-      <change afterPath="$PROJECT_DIR$/img/certificates/CCNAv7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/certificates/ItEssentials.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/certificates/IntroductionToNetwork.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/certificates/IntroductionToNetwork.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/change.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/change.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/certificates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/certificates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/certificates.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +79,7 @@
       <workItem from="1696404944532" duration="3238000" />
       <workItem from="1696413228616" duration="858000" />
       <workItem from="1696427863027" duration="1710000" />
-      <workItem from="1696452589497" duration="1143000" />
+      <workItem from="1696452589497" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
@@ -136,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696408991084</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="improves">
+      <option name="closed" value="true" />
+      <created>1696453765489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696453765489</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
