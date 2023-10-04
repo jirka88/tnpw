@@ -5,17 +5,14 @@ main {
     min-height: 100vh;
     box-shadow: var(--primary-shadow);
 }
-
 section {
     padding: 1em 0;
     gap: .5em;
 }
-
 .contact {
     display: grid;
     gap: 2em;
 }
-
 .contact, .map {
     flex: 50%;
 }
@@ -84,7 +81,7 @@ form textarea {
 
 form .input-container i {
     position: absolute;
-    padding-top: 21.665px;
+    padding-top: 21.6px;
     color: var(--primary-background);
     text-align: center;
     padding-left: 1em;
