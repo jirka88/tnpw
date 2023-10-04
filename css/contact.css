@@ -8,13 +8,10 @@ main {
 
 section {
     padding: 1em 0;
+    gap: .5em;
 }
 
 .contact {
-    border-width: 5px;
-    border-color: transparent var(--primary-background) transparent transparent;
-    border-inline-end-style: solid;
-    border-inline-end-width: 10px;
     display: grid;
     gap: 2em;
 }
@@ -22,9 +19,11 @@ section {
 .contact, .map {
     flex: 50%;
 }
-
-table {
-    width: 100%;
+section hr {
+    border: 5px solid var(--primary-background);
+}
+table#mobile {
+    display: none;
 }
 table tr {
     height: 2em;
@@ -40,7 +39,7 @@ table th i {
 }
 
 .smap {
-    height: 20em !important;
+    height: 50vh !important;
 }
 
 form {
@@ -95,19 +94,20 @@ form .input-container i {
     main .container > section {
         flex-direction: column;
     }
-
-    .contact {
-        border-inline-end: none;
-        border-bottom: 10px solid var(--primary-background);
+    section hr {
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 548px) {
+    table {
+        display: none;
+    }
+    table#mobile {
+        display: block;
+    }
     form {
         width: 100%;
-    }
-    td {
-        text-align: right;
     }
 
     form input, textarea {

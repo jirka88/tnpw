@@ -34,8 +34,8 @@ main section .image img {
     width: 100%;
     height: auto;
     cursor: pointer;
-    border-radius: 1em;
-    box-shadow: 0px 0px 8px var(--primary-background);
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 8px rgba(31, 72, 126, 0.6);
     transition: .3s ease-in-out;
 }
 .foto-gallery img:hover {
@@ -50,7 +50,7 @@ main section .image img {
         justify-content: center;
     }
     .foto-gallery {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media only screen and (max-width: 548px) {
