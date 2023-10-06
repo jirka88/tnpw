@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="/css/navbar.css">
   <link rel="stylesheet" href="/css/footer.css">
   <script src="https://kit.fontawesome.com/1d1b420d7c.js" crossorigin="anonymous"></script>
-  <script src="/javascript/navbar.js" defer></script>
   <link href="./../library/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -21,12 +20,12 @@
 </head>
 
 <body>
-<noscript>
-  <div class="noscript position-fixed flex-direction-column d-flex justify-content-center align-items-center">
-    <p>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</p>
-    <a href="https://www.enable-javascript.com/" target="_blank">Jak povolit javascript</a>
-  </div>
-</noscript>
+  <noscript>
+    <div class="noscript position-fixed flex-direction-column d-flex justify-content-center align-items-center">
+      <p>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</p>
+      <a href="https://www.enable-javascript.com/" target="_blank">Jak povolit javascript</a>
+    </div>
+  </noscript>
   <nav class="position-fixed">
     <div class="container d-flex align-items-center">
       <a id="0" href="../index.html"><img src="/img/logo.png" alt="Logo"></a>
@@ -182,8 +181,9 @@
     document.getElementById("2").classList.add("active");
     let dt = new Date();
     document.getElementById("created").innerText =
-            "© Jiří Navrátil " + dt.getFullYear();
+      "© Jiří Navrátil " + dt.getFullYear();
   </script>
 
 </body>
+
 </html>

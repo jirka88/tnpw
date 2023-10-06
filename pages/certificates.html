@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,115 +14,134 @@
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/certificates.css">
     <script src="https://kit.fontawesome.com/1d1b420d7c.js" crossorigin="anonymous"></script>
-    <script src="/javascript/navbar.js" defer></script>
     <script src="/javascript/change.js" defer></script>
     <link href="/library/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" sizes="16x16" type="image/x-icon" href="/favicon.ico">
 </head>
+
 <body>
-<noscript>
-    <div class="noscript position-fixed flex-direction-column d-flex justify-content-center align-items-center">
-        <p>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</p>
-        <a href="https://www.enable-javascript.com/" target="_blank">Jak povolit javascript</a>
+    <noscript>
+        <div class="noscript position-fixed flex-direction-column d-flex justify-content-center align-items-center">
+            <p>Tato stránka používá Javascript, proto je nutné ho mít zapnutý!</p>
+            <a href="https://www.enable-javascript.com/" target="_blank">Jak povolit javascript</a>
+        </div>
+    </noscript>
+    <nav class="position-fixed">
+        <div class="container d-flex align-items-center">
+            <a id="0" href="../index.html"><img src="/img/logo.png" alt="Logo"></a>
+            <ul class="d-flex links">
+                <li>
+                    <a id="1" href="projects.html">Projekty</a>
+                </li>
+                <li>
+                    <a id="2" href="experience.html">Znalosti</a>
+                </li>
+                <li>
+                    <a id="3" href="contact.html">Certifikáty</a>
+                </li>
+                <li>
+                    <a id="4" href="contact.html">Kontakt</a>
+                </li>
+            </ul>
+            <ul class="icons d-flex justify-content-end">
+                <li>
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/jiří-navrátil-b63145223" target="_blank" aria-label="Linkedin"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main id="information">
+        <div class="container">
+            <h1 class="title-with-arrow" data-aos="fade-right" data-aos-duration="800">Certifikáty</h1>
+            <section class="d-flex">
+                <article data-aos="fade-up">
+                    <h2>IT Essentials</h2>
+                    <p id="date">2020</p>
+                    <p id="description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus
+                        luctus egestas leo. Aliquam erat volutpat. Mauris metus. Sed ut
+                        perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                        inventore veritatis et quasi architecto beatae vitae dicta sunt
+                        explicabo. Maecenas lorem. Etiam egestas wisi a erat. Praesent</p>
+                </article>
+                <div class="image d-flex justify-content-end" onclick="seeFullSize()" data-aos="fade-up"
+                    data-aos-delay="400">
+                    <img id="certification" src="/img/certificates/ItEssentials.jpg" alt="Cisco IT Essentials">
+                </div>
+            </section>
+        </div>
+    </main>
+    <hr>
+    <div class="modal position-fixed">
+        <img id="modalImg" src="/img/certificates/ItEssentials.jpg" alt="Cisco IT Essentials">
+        <button onclick="cancel()"><i class="fa-solid fa-xmark"></i></button>
     </div>
-</noscript>
-<nav class="position-fixed">
-    <div class="container d-flex align-items-center">
-        <a id="0" href="../index.html"><img src="/img/logo.png" alt="Logo"></a>
-        <ul class="d-flex links">
-            <li>
-                <a id="1" href="projects.html">Projekty</a>
-            </li>
-            <li>
-                <a id="2" href="experience.html">Znalosti</a>
-            </li>
-            <li>
-                <a id="3" href="contact.html">Certifikáty</a>
-            </li>
-            <li>
-                <a id="4" href="contact.html">Kontakt</a>
-            </li>
-        </ul>
-        <ul class="icons d-flex justify-content-end">
-            <li>
-                <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://linkedin.com/in/jiří-navrátil-b63145223" target="_blank" aria-label="Linkedin"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
-            </li>
-            <li>
-                <a href="#" target="_blank" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<main id="information">
-    <div class="container">
-        <h1 class="title-with-arrow" data-aos="fade-right" data-aos-duration="800">Certifikáty</h1>
-        <section class="d-flex">
-            <article data-aos="fade-up">
-                <h2>IT Essentials</h2>
-                <p id="date">2020</p>
-                <p id="description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus
-                    luctus egestas leo. Aliquam erat volutpat. Mauris metus. Sed ut
-                    perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                    inventore veritatis et quasi architecto beatae vitae dicta sunt
-                    explicabo. Maecenas lorem. Etiam egestas wisi a erat. Praesent</p>
-            </article>
-            <div class="image d-flex justify-content-end" data-aos="fade-up" data-aos-delay="400">
-               <img id="certification" src="/img/certificates/ItEssentials.jpg" alt="Cisco IT Essentials">
-            </div>
-        </section>
-    </div>
-</main>
-<hr>
-<section class="gallery">
-    <div class="container">
-        <div class="foto-gallery">
-            <div class="gallery-item">
-                <a href="#information" onclick="change(1)"><img src="/img/certificates/ItEssentials.jpg" alt="Cisco IT Essentials"></a>
-            </div>
-            <div class="gallery-item">
-                <a href="#information" onclick="change(2)"><img src="/img/certificates/IntroductionToNetwork.png" alt="Cisco Introduction to network"></a>
-            </div>
-            <div class="gallery-item">
-                <a href="#information" onclick="change(3)"><img src="/img/certificates/CCNAv7.jpg" alt="Tutorial css"></a>
-            </div>
-            <div class="gallery-item">
-                <a href="#information" onclick="change(4)"><img src="/img/certificates/Coursera%202UHDG42AG36X_page-0001.jpg" alt="Tutorial css"></a>
-            </div>
-            <div class="gallery-item">
-                <a href="#information" onclick="change(5)"><img src="/img/certificates/Coursera%20JKLR57RFHV6C_page-0001.jpg" alt="Introduction to .NET Core"></a>
-            </div>
-            <div class="gallery-item">
-                <a href="#information" onclick="change(6)"><img src="/img/certificates/Coursera%20JVGEQWTZ36FX_page-0001.jpg" alt="React basics"></a>
+    <section class="gallery" data-aos="fade-up" data-aos-delay="400">
+        <div class="container">
+            <div class="foto-gallery">
+                <a href="#information">
+                    <div class="gallery-item" onclick="change(1)">
+                        <img src="/img/certificates/ItEssentials.jpg" alt="Cisco IT Essentials">
+                    </div>
+                </a>
+                <a href="#information">
+                    <div class="gallery-item" onclick="change(2)">
+                        <img src="/img/certificates/IntroductionToNetwork.png" alt="Cisco Introduction to network">
+                    </div>
+                </a>
+                <a href="#information">
+                    <div class="gallery-item" onclick="change(3)">
+                        <img src="/img/certificates/CCNAv7.jpg" alt="Tutorial css">
+                    </div>
+                </a>
+                <a href="#information">
+                    <div class="gallery-item" onclick="change(4)">
+                        <img src="/img/certificates/Coursera%202UHDG42AG36X_page-0001.jpg" alt="Tutorial css">
+                    </div>
+                </a>
+                <a href="#information">
+                    <div class="gallery-item" onclick="change(5)">
+                        <img src="/img/certificates/Coursera%20JKLR57RFHV6C_page-0001.jpg"
+                            alt="Introduction to .NET Core">
+                    </div>
+                </a>
+                <a href="#information">
+                    <div class="gallery-item" onclick="change(6)">
+                        <img src="/img/certificates/Coursera%20JVGEQWTZ36FX_page-0001.jpg" alt="React basics">
+                    </div>
+                </a>
             </div>
         </div>
-    </div>
-</section>
-<footer>
-    <p id="created">©Jiří Navrátil</p>
-    <hr>
-    <div class="information">
-        <h3>studentský zápočtový projekt</h3>
-        <h4>
-            naposledy aktualizováno xx.xx.2023 |
-            <a href="sources.html" target="_blank">zdroje</a>
-        </h4>
-    </div>
-</footer>
-<script>
-    AOS.init();
-    document.getElementById("3").classList.add("active");
-    let dt = new Date();
-    document.getElementById("created").innerText =
-        "© Jiří Navrátil " + dt.getFullYear();
-</script>
+    </section>
+    <footer>
+        <p id="created">©Jiří Navrátil</p>
+        <hr>
+        <div class="information">
+            <h3>studentský zápočtový projekt</h3>
+            <h4>
+                naposledy aktualizováno xx.xx.2023 |
+                <a href="sources.html" target="_blank">zdroje</a>
+            </h4>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+        document.getElementById("3").classList.add("active");
+        let dt = new Date();
+        document.getElementById("created").innerText =
+            "© Jiří Navrátil " + dt.getFullYear();
+    </script>
 </body>
+
 </html>

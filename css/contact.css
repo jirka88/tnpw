@@ -5,6 +5,9 @@ main {
     min-height: 100vh;
     box-shadow: var(--primary-shadow);
 }
+nav  {
+    background-color: var(--light-background);
+}
 section {
     padding: 1em 0;
     gap: .5em;
@@ -75,6 +78,7 @@ form input[type=submit] {
 form textarea {
     resize: vertical;
     height: 15vh;
+    border: 1px solid var(--primary-background);
     min-height: 10vh;
     max-height: 30vh;
 }
@@ -106,7 +110,6 @@ form .input-container i {
     form {
         width: 100%;
     }
-
     form input, textarea {
         width: 100% !important;
         padding: 1em 0 !important;

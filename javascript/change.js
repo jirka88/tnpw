@@ -40,6 +40,29 @@ function change(id) {
             date.innerText = "září 2023"
             image.src = "/img/certificates/Coursera%20JVGEQWTZ36FX_page-0001.jpg";
             image.alt = "React Basics certifikát"
+            description.innerText = "Po absolvování tohoto kurzu jsem se naučil vytvářet opakovaně použitelné komponenty pro dynamické zobrazení dat v reactu. Dále jsem se seznámil s efektivním využitím props k předávání dat mezi komponentami, což umožňuje vytvářet dynamické, interaktivní stránky a formuláře. Kurz mě také připravil na vytvoření webové aplikace v Reactu a zdokonalil moje dovednosti v moderním vývoji webu."
             break;
     }
 }
+function seeFullSize() {
+    document.querySelector("body").style.overflow = "hidden";
+    document.querySelector(".modal").style.display = "flex";
+    let image = document.querySelector("#certification");
+    let modalImg = document.querySelector("#modalImg");
+    modalImg.src = image.src;
+    modalImg.alt = modalImg.alt;
+
+}
+function cancel() {
+    document.querySelector("body").style.overflow = "visible";
+    document.querySelector(".modal").style.display = "none";
+
+}
+document.addEventListener('keydown', (event) => {
+    if(event.keyCode === 27) {
+        let modal = document.querySelector(".modal");
+        if(modal.style.display === "flex") {
+            cancel();
+        }
+    }
+}); 
