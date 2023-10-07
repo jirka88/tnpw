@@ -4,6 +4,9 @@ nav {
     gap: 4em;
     z-index: 999;
 }
+nav.activated {
+    background-color: var(--light-background) !important;
+}
 nav img {
     height: 4em;
 }
@@ -46,18 +49,74 @@ nav .links li a:hover:before {
     width: 100%;
     transition: .2s;
 }
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;;
+    margin: 5px auto;
+    background-color: white;
+    transition: all ease-in-out;
+}
 @media only screen and (max-width: 1080px) {
     nav .links {
-        display: none;
+        left: 200%;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        transition: .8s ease-in-out;
+        padding: 1em 0;
+        background-color: var(--light-background);
+        margin: 80px auto;
+        max-height: 100vh;
+    }
+    nav .links.activated {
+        display: flex;  
+        left: 0; 
     }
     nav .icons {
         justify-content: center;
         margin-left: -64px;
         padding: 0;
     }
+    .hamburger {
+        display: block;
+    }
+    .bar.activated:nth-child(2) {
+        opacity: 0;
+    }
+    .bar.activated:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .bar.activated:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
 @media only screen and (max-width: 548px) {
+    nav .container{
+        justify-content: space-between;
+    }
     nav .icons {
-        display: none !important;
+        position: fixed;
+        width: 100%;
+        justify-content: center;
+        background: var(--light-background);
+        left: -200%;
+        top: 370px;
+        padding: .6em 0;
+        margin: 0px auto;
+        z-index: 10000;
+        opacity: 0;
+        transition: .8s ease-in-out;
+    }
+    nav .icons.activated {
+        display: flex;  
+        left: 0; 
+        opacity: 1;
     }
 }
