@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Certifikáty</title>
     <meta name="author" content="Jiří Navrátil">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/variables.css">
     <link rel="stylesheet" href="/css/support-styles.css">
     <link rel="stylesheet" href="/css/navbar.css">
@@ -30,7 +28,7 @@
     </noscript>
     <nav class="position-fixed">
         <div class="container d-flex align-items-center">
-            <a href="../index.html"><img src="/img/logo.png" alt="Jiří Navrátil logo"></a>
+            <a href="../index.html" aria-label="hlavní stránka"><img src="/img/logo.png" alt="Jiří Navrátil logo"></a>
             <ul class="links d-flex">
                 <li>
                     <a id="1" href="projects.html">Projekty</a>
@@ -96,7 +94,7 @@
         <img id="modalImg" src="/img/certificates/ItEssentials.jpg" alt="Cisco IT Essentials">
         <button onclick="cancel()"><i class="fa-solid fa-xmark"></i></button>
     </div>
-    <section class="gallery" data-aos="fade-up" data-aos-delay="400">
+    <section class="gallery" data-aos="fade-up" data-aos-delay="400" data-aos-once='true' >
         <div class="container">
             <div class="foto-gallery">
                 <a href="#information" class="gallery-item" onclick="change(1)">
