@@ -15,6 +15,9 @@ main section {
 main section:nth-child(even) {
     color: white;
 }
+.caption {
+    margin-top: 1em;
+}
 .caption:before {
     background: var(--light-background);
 }
@@ -35,8 +38,19 @@ main section .references {
 main section .references a {
     color: white;
     padding: 12px 24px;
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    box-shadow: 1px 1px 0 0, 2px 2px 0 0, 3px 3px 0 0, 4px 4px 0 0, 5px 5px 0 0;
     border: 1px solid white;
+    transition: .4s ease-in-out;
+}
+main section:nth-child(even) .references a:hover {
+    background: white;
+    color: black;
+    transition: .4s ease-in-out;
+}
+main section:nth-child(odd) .references a:hover {
+    background: var(--primary-background);
+    color: white;
+    transition: .4s ease-in-out;
 }
 main section:nth-child(odd) .references a {
     color: black;

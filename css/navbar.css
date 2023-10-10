@@ -8,7 +8,8 @@ nav.activated {
     background-color: var(--light-background) !important;
 }
 nav img {
-    height: 4em;
+    width: 100%;
+    height: auto;
 }
 nav ul {
     flex-grow: 1;
@@ -42,7 +43,7 @@ nav .links li a:before {
     position: absolute;
     background-color: white;
     bottom: -1px;
-    width: 0%;
+    width: 0;
     height: 2px;
 }
 nav .links li a:hover:before {
@@ -107,9 +108,9 @@ nav .links li a:hover:before {
         justify-content: center;
         background: var(--light-background);
         left: -200%;
-        top: 370px;
+        top: 360px;
         padding: .6em 0;
-        margin: 0px auto;
+        margin: 0 auto;
         z-index: 10000;
         opacity: 0;
         transition: .8s ease-in-out;

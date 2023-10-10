@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="upravy">
+      <change afterPath="$PROJECT_DIR$/img/logo-jn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/experiences.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experiences.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/certificates.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
@@ -90,7 +91,8 @@
       <workItem from="1696837777164" duration="34000" />
       <workItem from="1696860545149" duration="73000" />
       <workItem from="1696860702534" duration="6426000" />
-      <workItem from="1696923643071" duration="6147000" />
+      <workItem from="1696923643071" duration="6765000" />
+      <workItem from="1696946701941" duration="3157000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
@@ -156,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696796351575</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="projects">
+      <option name="closed" value="true" />
+      <created>1696935428666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696935428666</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +190,7 @@
     <MESSAGE value="noscript + improves" />
     <MESSAGE value="certifikaty" />
     <MESSAGE value="improves" />
+    <MESSAGE value="projects" />
     <MESSAGE value="upravy" />
     <option name="LAST_COMMIT_MESSAGE" value="upravy" />
   </component>
