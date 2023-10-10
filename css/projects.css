@@ -5,3 +5,61 @@ main {
     padding: 6em 0;
     box-shadow: var(--primary-shadow);
 }
+main > .container {
+    margin-bottom: 3em;
+}
+main section {
+    padding: 2em 0;
+    position: relative;
+}
+main section:nth-child(even) {
+    color: white;
+}
+.caption:before {
+    background: var(--light-background);
+}
+main section:nth-child(even):before {
+    content: "";
+    position: absolute;
+    transform: skewY(3deg);
+    background: var(--primary-background);
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+main section .references {
+    padding: 1em 0;
+    display: flex;
+    gap: 1em;
+}
+main section .references a {
+    color: white;
+    padding: 12px 24px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    border: 1px solid white;
+}
+main section:nth-child(odd) .references a {
+    color: black;
+    border: 1px black solid
+}
+.foto-gallery {
+    padding: 1.2em 0;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+}
+.foto-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: .5em;
+}
+@media only screen and (max-width: 1080px) {
+    .foto-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 548px) {
+    .foto-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

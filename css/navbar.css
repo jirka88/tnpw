@@ -24,7 +24,7 @@ nav ul li{
 }
 nav ul li a {
     color: var(--primary-color);
-    font-size: 1.2em;
+    font-size: 1.1em;
     position: relative;
 }
 nav .icons {

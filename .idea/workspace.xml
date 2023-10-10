@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="small improve gallery">
-      <change afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
+    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="upravy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/experiences.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experiences.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/certificates.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/experience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sources.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
+  &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2W1o5RaZOfbw6Ry3hdmm6BchgTU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,18 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/laval/OneDrive - Univerzita Hradec Králové/Coursera/React Basics/firstapp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Develop\tnpw\img\certificates" />
@@ -85,7 +85,12 @@
       <workItem from="1696452589497" duration="1491000" />
       <workItem from="1696589021773" duration="1751000" />
       <workItem from="1696608194819" duration="15000" />
-      <workItem from="1696792736579" duration="3562000" />
+      <workItem from="1696792736579" duration="4280000" />
+      <workItem from="1696798951720" duration="156000" />
+      <workItem from="1696837777164" duration="34000" />
+      <workItem from="1696860545149" duration="73000" />
+      <workItem from="1696860702534" duration="6426000" />
+      <workItem from="1696923643071" duration="6147000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
@@ -143,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696453765489</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="upravy">
+      <option name="closed" value="true" />
+      <created>1696796351575</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696796351575</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +180,7 @@
     <MESSAGE value="noscript + improves" />
     <MESSAGE value="certifikaty" />
     <MESSAGE value="improves" />
-    <option name="LAST_COMMIT_MESSAGE" value="improves" />
+    <MESSAGE value="upravy" />
+    <option name="LAST_COMMIT_MESSAGE" value="upravy" />
   </component>
 </project>

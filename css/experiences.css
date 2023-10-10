@@ -38,6 +38,7 @@ main section > img {
     align-items: center;
     background: none;
     cursor: pointer;
+    transition: .8s ease-in-out;
 }
 
 .slide .back {

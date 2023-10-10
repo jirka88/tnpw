@@ -51,7 +51,7 @@
                     <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/jirka88" target="_blank" aria-label="Github"><i class="fa-brands fa-github"></i></a>
                 </li>
                 <li>
                     <a href="https://linkedin.com/in/jiří-navrátil-b63145223" target="_blank" aria-label="Linkedin"><i
@@ -130,7 +130,7 @@
                 <div data-aos="fade-up" data-aos-delay="200"  data-aos-once='true'
                     class="map pa-1 d-flex justify-content-center align-items-center">
                     <form action="" method="POST" class="d-flex flex-direction-column">
-                        <label for="email">Email*</label>
+                        <label for="email">Email<sup>*</sup></label>
                         <div class="input-container">
                             <i class="fa-regular fa-envelope"></i>
                             <input id="email" type="email" required pattern="[^@\s]+@[^@\s]+"
@@ -139,15 +139,15 @@
                         <label for="telephone">Telefonní číslo</label>
                         <div class="input-container">
                             <i class="fa-solid fa-phone"></i>
-                            <input id="telephone" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                                title="Telefonní číslo je ve špatném formátu.">
+                            <input id="telephone" type="tel" pattern="^\+\d{3} \d{3} \d{3} \d{3}$"
+                                title="Telefonní číslo je ve špatném formátu. Požadovaný formát např: +420 111 222 333">
                         </div>
-                        <label for="subject">Předmět*</label>
+                        <label for="subject">Předmět<sup>*</sup></label>
                         <div class="input-container">
                             <i class="fa-solid fa-heading"></i>
                             <input type="text" id="subject" required maxlength="50">
                         </div>
-                        <label for="message">Zpráva*</label>
+                        <label for="message">Zpráva<sup>*</sup></label>
                         <div class="input-container">
                             <i class="fa-regular fa-message"></i>
                             <textarea id="message"></textarea>
