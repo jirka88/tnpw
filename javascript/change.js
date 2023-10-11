@@ -46,23 +46,23 @@ function change(id) {
 }
 function seeFullSize() {
     document.querySelector("body").style.overflow = "hidden";
-    document.querySelector(".modal").style.display = "flex";
+    document.querySelector(".lightBox").style.display = "flex";
     let image = document.querySelector("#certification");
     let modalImg = document.querySelector("#modalImg");
     modalImg.src = image.src;
-    modalImg.alt = modalImg.alt;
+    modalImg.alt = image.alt;
 
 }
 function cancel() {
     document.querySelector("body").style.overflow = "visible";
-    document.querySelector(".modal").style.display = "none";
+    document.querySelector(".lightBox").style.display = "none";
 
 }
 document.addEventListener('keydown', (event) => {
     if(event.keyCode === 27) {
-        let modal = document.querySelector(".modal");
+        let modal = document.querySelector(".lightBox");
         if(modal.style.display === "flex") {
             cancel();
         }
     }
-}); 
+});

@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="./../library/aos.css">
+    <link rel="stylesheet" href="/css/lightBox.css">
     <script src="https://kit.fontawesome.com/1d1b420d7c.js" crossorigin="anonymous"></script>
     <script src="/javascript/hamburger.js" defer></script>
+    <script src="/javascript/lightBox.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -82,8 +84,20 @@
                 <a href="https://github.com/jirka88/LearnApp" target="_blank">Github <i class="fa-brands fa-github"></i></a>
             </div>
             <div class="foto-gallery">
-                <div class="foto-slide">
-                    <img src="/img/certificates/CCNAv7.jpg" alt="test">
+                <div class="gallery-item">
+                    <img src="/img/projects/learnApp/registace.png" alt="LearnApp - registrace">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/projects/learnApp/nastaveni-profilu.png" alt="LearnApp - nastavení profilu">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/projects/learnApp/predmety.png" alt="LearnApp - předměty">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/projects/learnApp/kapitoly.png" alt="LearnApp - kapitoly">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/projects/learnApp/sdileni.png" alt="LearnApp - sdílení">
                 </div>
             </div>
         </div>
@@ -105,9 +119,7 @@
                         class="fa-solid fa-file"></i></a>
             </div>
             <div class="foto-gallery">
-                <div class="foto-slide">
-                    <img src="/img/certificates/CCNAv7.jpg" alt="test">
-                </div>
+
             </div>
         </div>
     </section>
@@ -125,22 +137,27 @@
                         class="fa-brands fa-youtube"></i></a>
             </div>
             <div class="foto-gallery">
-                <div class="foto-slide">
+                <div class="gallery-item">
                     <img src="/img/projects/vlak/Vlak-menu.png" alt="VLak - menu">
                 </div>
-                <div class="foto-slide">
+                <div class="gallery-item">
                     <img src="/img/projects/vlak/Vlak-editor.png" alt="Vlak - editor levlů">
                 </div>
-                <div class="foto-slide">
+                <div class="gallery-item">
                     <img src="/img/projects/vlak/Vlak-play.png" alt="Vlak - první level">
                 </div>
-                <div class="foto-slide">
+                <div class="gallery-item">
                     <img src="/img/projects/vlak/VLak-play2.png" alt="Vlak - level srpen">
                 </div>
-
             </div>
         </div>
     </section>
+    <div class="lightBox">
+        <button class="back"></button>
+        <img src="/img/projects/learnApp/registace.png" alt="">
+        <button class="next"></button>
+        <button class="cancel" onclick="cancel()"><i class="fa-solid fa-xmark"></i></button>
+    </div>
 </main>
 <footer>
     <p id="created">©Jiří Navrátil</p>
