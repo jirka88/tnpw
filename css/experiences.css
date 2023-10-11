@@ -129,3 +129,15 @@ main section > img {
         font-size: 0.6em;
     }
 }
+@media print {
+    .full-bleed {
+        all: unset;
+    }
+    #frontend, #design, #cis {
+        background: none;
+    }
+    .slide {
+        width: 5em;
+        height: 5em;
+    }
+}

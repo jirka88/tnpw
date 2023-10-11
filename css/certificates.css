@@ -140,3 +140,11 @@ main section .image img {
     }
 
 }
+@media print {
+    main section {
+        flex-direction: column;
+    }
+    .foto-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

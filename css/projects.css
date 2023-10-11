@@ -84,3 +84,8 @@ main section:nth-child(odd) .references a {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media print {
+    main section {
+        color: black !important;
+    }
+}

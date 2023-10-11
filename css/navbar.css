@@ -121,3 +121,8 @@ nav .links li a:hover:before {
         opacity: 1;
     }
 }
+@media print {
+    nav {
+        display: none;
+    }
+}
