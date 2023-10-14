@@ -74,6 +74,11 @@ main section:nth-child(odd) .references a {
     object-position: center;
     border-radius: .5em;
 }
+@media only screen and (min-width: 1280px) {
+    main .title-with-arrow {
+        margin-bottom: 1.5em !important;
+    }
+}
 @media only screen and (max-width: 1080px) {
     .foto-gallery {
         grid-template-columns: repeat(3, 1fr);

@@ -68,5 +68,9 @@
 @media only screen and (max-width: 548px) {
     .lightBox {
         padding: 0;
+        flex-direction: column;
+    }
+    .lightBox button.back, .lightBox button.next {
+        position: static;
     }
 }

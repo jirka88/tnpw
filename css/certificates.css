@@ -6,7 +6,6 @@ body {
 nav {
     background-color: var(--light-background);
 }
-
 main {
     padding: 6em 0 6em 0;
     box-sizing: border-box;
@@ -115,6 +114,9 @@ main section .image img {
 .foto-gallery .gallery-item:hover::before {
     opacity: 0.8;
 }
+hr:first-child {
+    border: 1px solid var(--primary-background);
+}
 
 @media only screen and (max-width: 1080px) {
     main section {
@@ -138,6 +140,10 @@ main section .image img {
     article h2, article #date {
         text-align: center !important;
     }
+    .caption:before {
+        all: unset;
+    }
+    
 
 }
 @media print {

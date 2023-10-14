@@ -14,6 +14,9 @@ main .container:first-child {
 main section {
     padding: 1em 0;
 }
+main section .info, main section .img {
+    flex: 50%;
+}
 
 main .container:last-child {
     gap: 1em;

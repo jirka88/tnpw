@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="lightBox">
+    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="improves">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/certificates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/certificates.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/experiences.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experiences.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/lightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lightBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/support-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/support-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/lightBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/lightBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
@@ -39,31 +31,18 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
   <component name="ProjectId" id="2W1o5RaZOfbw6Ry3hdmm6BchgTU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/laval/OneDrive - Univerzita Hradec Králové/Coursera/React Basics/firstapp&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Develop\tnpw\img\projects\learnApp" />
       <recent name="C:\Develop\tnpw\img\certificates" />
     </key>
   </component>
@@ -99,6 +78,8 @@
       <workItem from="1697017982262" duration="1001000" />
       <workItem from="1697033827692" duration="728000" />
       <workItem from="1697054183792" duration="3706000" />
+      <workItem from="1697131335147" duration="30000" />
+      <workItem from="1697283755769" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
