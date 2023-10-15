@@ -29,6 +29,9 @@ main .container:last-child > section {
 main section > img {
     width: 40%;
 }
+main section .img img {
+    width: 100%;
+}
 
 .slide {
     text-align: center;

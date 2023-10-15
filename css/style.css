@@ -170,10 +170,10 @@ box-shadow: inset 0 0 199px 10px rgba(31,72,126,0.9);
 }
 @media only screen and (max-width: 1280px) {
     .info {
-        gap: 0;
+        gap: 2em;
     }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1080px), print {
     .introduction {
         background-color: var(--primary-background);
         min-height: 100dvh;
@@ -214,6 +214,9 @@ box-shadow: inset 0 0 199px 10px rgba(31,72,126,0.9);
 @media only screen and (max-width: 768px) {
     .introduction h1 {
         font-size: 4em !important;
+    }
+    .info {
+        gap: 0;
     }
     .info .box .circle { 
         height: 12em;
