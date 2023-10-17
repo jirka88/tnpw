@@ -18,6 +18,7 @@
     <script type="text/javascript">Loader.load();</script>
     <script src="/javascript/hamburger.js" defer></script>
     <script src="/javascript/map.js" defer></script>
+    <script src="/javascript/form.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="manifest" href="/manifest.json">
@@ -132,8 +133,9 @@
                 </div>
                 <hr data-aos="fade-up" data-aos-delay="200" data-aos-once='true'>
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-once='true'
-                    class="map pa-1 d-flex justify-content-center align-items-center">
-                    <form action="" method="POST" class="d-flex flex-direction-column">
+                    class="map pa-1 d-flex justify-content-center align-items-center flex-direction-column">
+                    <p class="title">Neváhejte mě kontaktovat odesláním formuláře níže a já se vám co nejdříve ozvu.</p>
+                    <form action="" method="POST" id="contactForm" class="d-flex flex-direction-column">
                         <label for="email">Email<sup>*</sup></label>
                         <div class="input-container">
                             <i class="fa-regular fa-envelope"></i>
@@ -154,7 +156,7 @@
                         <label for="message">Zpráva<sup>*</sup></label>
                         <div class="input-container">
                             <i class="fa-regular fa-message"></i>
-                            <textarea id="message"></textarea>
+                            <textarea id="message" required></textarea>
                         </div>
                         <input type="submit" value="odeslat zprávu" required>
                     </form>
