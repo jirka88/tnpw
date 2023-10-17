@@ -108,7 +108,7 @@ nav .links li a:hover:before {
         justify-content: center;
         background: var(--light-background);
         left: -200%;
-        top: 360px;
+        top: 350px;
         padding: .6em 0;
         margin: 0 auto;
         z-index: 10000;

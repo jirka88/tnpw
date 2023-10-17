@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="improves">
-      <change afterPath="$PROJECT_DIR$/javascript/form.js" afterDir="false" />
+    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="contactForm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/certificates/IntroductionToNetwork.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/certificates/IntroductionToNetwork.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/upravena_Navratil-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/upravena_Navratil-min.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,8 @@
       <workItem from="1697283755769" duration="126000" />
       <workItem from="1697490898926" duration="1080000" />
       <workItem from="1697534118649" duration="7011000" />
-      <workItem from="1697555758063" duration="1448000" />
+      <workItem from="1697555758063" duration="2078000" />
+      <workItem from="1697558437729" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
@@ -212,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697551086579</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="contactForm">
+      <option name="closed" value="true" />
+      <created>1697557347659</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697557347659</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +250,7 @@
     <MESSAGE value="little improves" />
     <MESSAGE value="compress" />
     <MESSAGE value="improves" />
-    <option name="LAST_COMMIT_MESSAGE" value="improves" />
+    <MESSAGE value="contactForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="contactForm" />
   </component>
 </project>
