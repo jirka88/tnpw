@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <meta name="author" content="Jiří Navrátil">
     <link rel="stylesheet" href="/css/contact.css">
@@ -14,8 +13,8 @@
     <link rel="stylesheet" href="/css/footer.css">
     <script src="https://kit.fontawesome.com/1d1b420d7c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../library/aos.css">
-    <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
-    <script type="text/javascript">Loader.load();</script>
+    <script src="https://api.mapy.cz/loader.js"></script>
+    <script>Loader.load();</script>
     <script src="/javascript/hamburger.js" defer></script>
     <script src="/javascript/map.js" defer></script>
     <script src="/javascript/form.js" defer></script>
@@ -79,7 +78,7 @@
             <h1 class="title-with-arrow" data-aos="fade-right" data-aos-duration="800" data-aos-once='true'>
                 Kontakt
             </h1>
-            <section class="d-flex">
+            <div class="d-flex section">
                 <div data-aos="fade-up" data-aos-delay="200" class="contact pa-1" data-aos-once='true'>
                     <table>
                         <tbody>
@@ -135,7 +134,7 @@
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-once='true'
                     class="map pa-1 d-flex justify-content-center align-items-center flex-direction-column">
                     <p class="title">Neváhejte mě kontaktovat odesláním formuláře níže a já se vám co nejdříve ozvu.</p>
-                    <form action="" method="POST" id="contactForm" class="d-flex flex-direction-column">
+                    <form method="POST" id="contactForm" class="d-flex flex-direction-column">
                         <label for="email">Email<sup>*</sup></label>
                         <div class="input-container">
                             <i class="fa-regular fa-envelope"></i>
@@ -158,10 +157,10 @@
                             <i class="fa-regular fa-message"></i>
                             <textarea id="message" required></textarea>
                         </div>
-                        <input type="submit" value="odeslat zprávu" required>
+                        <input type="submit" value="odeslat zprávu">
                     </form>
                 </div>
-            </section>
+            </div>
         </div>
     </main>
     <footer>

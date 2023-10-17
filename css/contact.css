@@ -1,3 +1,6 @@
+nav {
+    background-color: var(--light-background);
+}
 main {
     padding: 6em 0 4em 0;
     position: relative;
@@ -5,26 +8,21 @@ main {
     min-height: 100vh;
     box-shadow: var(--primary-shadow);
 }
-
-nav {
-    background-color: var(--light-background);
-}
-
-section {
+main .section {
     padding: 1em 0;
     gap: .5em;
 }
 
-.contact {
+main .contact {
     display: grid;
     gap: 2em;
 }
 
-.contact, .map {
+main .contact, .map {
     flex: 50%;
 }
 
-section hr {
+main .section hr {
     border: 5px solid var(--primary-background);
 }
 
@@ -117,11 +115,11 @@ form .input-container i {
 }
 
 @media only screen and (max-width: 1080px) {
-    main .container > section {
+    main .section {
         flex-direction: column;
     }
 
-    section hr {
+    .section hr {
         width: 100%;
     }
 }
@@ -149,7 +147,7 @@ form .input-container i {
 }
 
 @media print {
-    main .container > section {
+    main .section {
         flex-direction: column;
     }
 
@@ -161,7 +159,7 @@ form .input-container i {
         display: block;
     }
 
-    section hr {
+    .section hr {
         width: 100%;
     }
 

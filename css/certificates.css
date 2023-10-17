@@ -11,20 +11,16 @@ main {
     box-sizing: border-box;
 }
 
-main section {
+main .section  {
     gap: 2em;
     width: 100%;
 }
 
-main section article {
+main .section   article, main .section   .image {
     flex: 50%;
 }
 
-main section .image {
-    flex: 50%;
-}
-
-main section .image img {
+main .section  .image img {
     width: 100%;
     max-width: 40em;
     height: auto;
@@ -119,11 +115,11 @@ hr:first-child {
 }
 
 @media only screen and (max-width: 1080px) {
-    main section {
+    main .section  {
         flex-direction: column;
     }
 
-    main section .image {
+    main .section  .image {
         justify-content: center;
     }
 
@@ -147,7 +143,7 @@ hr:first-child {
 
 }
 @media print {
-    main section {
+    main .section   {
         flex-direction: column;
     }
     .foto-gallery {
