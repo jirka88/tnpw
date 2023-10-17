@@ -143,6 +143,9 @@ form .input-container i {
         width: 100% !important;
         padding: 1em 0 !important;
     }
+    .title {
+        width: 100%;
+    }
 }
 
 @media print {
