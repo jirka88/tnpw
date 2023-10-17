@@ -59,6 +59,14 @@
     box-shadow: var(--primary-shadow);
     min-height: 100vh;
 }
+#about a {
+    font-family: 'Merriweather', serif ;
+    text-decoration: underline;
+    color: var(--primary-background)
+}
+#about p {
+    margin-bottom: 0;
+}
 #about:before {
     content: "";
     position: absolute;
@@ -103,6 +111,7 @@
     height: 100%;
     background: url("/img/wave-haikei3.svg") no-repeat;
     background-size: cover;
+    background-position-y: -5vh;
 }
 .skills .caption {
     text-indent: unset;
@@ -114,7 +123,6 @@
     box-sizing: border-box;
     gap: 6em;
     padding: 2em 0;
-    box-sizing: border-box;
 }
 .info .box {
     padding: 1em;
@@ -210,6 +218,9 @@
     }
     #about .about {
         padding: 2em 1.5em 2em 1.5em;
+    }
+    .skills:before {
+        height: 70vh;
     }
 }
 @media only screen and (max-width: 768px) {

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="little improves">
+    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="improves">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/support-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/support-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/experiences.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/experiences.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +48,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -92,7 +99,8 @@
       <workItem from="1697054183792" duration="3706000" />
       <workItem from="1697131335147" duration="30000" />
       <workItem from="1697283755769" duration="126000" />
-      <workItem from="1697490898926" duration="881000" />
+      <workItem from="1697490898926" duration="1080000" />
+      <workItem from="1697534118649" duration="7000000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
@@ -190,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697395976738</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="compress">
+      <option name="closed" value="true" />
+      <created>1697492343806</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697492343806</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,11 +229,12 @@
     <MESSAGE value="improve" />
     <MESSAGE value="noscript + improves" />
     <MESSAGE value="certifikaty" />
-    <MESSAGE value="improves" />
     <MESSAGE value="projects" />
     <MESSAGE value="upravy" />
     <MESSAGE value="lightBox" />
     <MESSAGE value="little improves" />
-    <option name="LAST_COMMIT_MESSAGE" value="little improves" />
+    <MESSAGE value="compress" />
+    <MESSAGE value="improves" />
+    <option name="LAST_COMMIT_MESSAGE" value="improves" />
   </component>
 </project>
