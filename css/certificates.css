@@ -6,28 +6,32 @@ body {
 nav {
     background-color: var(--light-background);
 }
+
 main {
     padding: 6em 0 6em 0;
     box-sizing: border-box;
 }
 
-main .section  {
+main .section {
     gap: 2em;
     width: 100%;
 }
+
 .section article {
     width: 50% !important;
 }
+
 .section article h2 {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-main .section   article, main .section   .image {
+
+main .section article, main .section .image {
     flex: 50%;
 }
 
-main .section  .image img {
+main .section .image img {
     width: 100%;
     max-width: 40em;
     height: auto;
@@ -117,19 +121,21 @@ main .section  .image img {
 .foto-gallery .gallery-item:hover::before {
     opacity: 0.8;
 }
+
 hr:first-child {
     border: 1px solid var(--primary-background);
 }
 
-@media only screen and (max-width: 1080px) {
-    main .section  {
+@media only screen and (max-width: 1080px), print {
+    main .section {
         flex-direction: column;
     }
+
     main .section article {
         width: 100% !important;
     }
 
-    main .section  .image {
+    main .section .image {
         justify-content: center;
     }
 
@@ -138,12 +144,13 @@ hr:first-child {
     }
 }
 
-@media only screen and (max-width: 548px) {
+@media only screen and (max-width: 548px), print {
     main .section article h2 {
         overflow: visible;
         text-overflow: unset;
         white-space: unset;
     }
+
     .foto-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -151,17 +158,8 @@ hr:first-child {
     article h2, article #date {
         text-align: center !important;
     }
+
     .caption:before {
         all: unset;
-    }
-    
-
-}
-@media print {
-    main .section   {
-        flex-direction: column;
-    }
-    .foto-gallery {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
