@@ -50,7 +50,7 @@ a {
 
 nav a.active {
     text-decoration: 2px underline;
-    text-underline-position: under;
+    text-underline-offset: 2.5px;
 }
 
 .pa-1 {

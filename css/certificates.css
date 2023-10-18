@@ -15,7 +15,14 @@ main .section  {
     gap: 2em;
     width: 100%;
 }
-
+.section article {
+    width: 50% !important;
+}
+.section article h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 main .section   article, main .section   .image {
     flex: 50%;
 }
@@ -118,6 +125,9 @@ hr:first-child {
     main .section  {
         flex-direction: column;
     }
+    main .section article {
+        width: 100% !important;
+    }
 
     main .section  .image {
         justify-content: center;
@@ -129,6 +139,11 @@ hr:first-child {
 }
 
 @media only screen and (max-width: 548px) {
+    main .section article h2 {
+        overflow: visible;
+        text-overflow: unset;
+        white-space: unset;
+    }
     .foto-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
