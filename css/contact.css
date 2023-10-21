@@ -139,7 +139,8 @@ form .input-container i {
 
     form input, textarea {
         width: 100% !important;
-        padding: 1em 0 !important;
+    
+        box-sizing: border-box;
     }
     .title {
         width: 100%;
