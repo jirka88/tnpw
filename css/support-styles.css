@@ -233,3 +233,14 @@ input, textarea {
         box-shadow: none !important;
     }
 }
+@media only screen and (max-width: 320px) {
+    .title-with-arrow {
+        font-size: 20vw;
+    }
+    .caption {
+        font-size: 15vw;
+    }
+    p {
+        font-size: calc(0.2em + 5vw)
+    }
+}
