@@ -83,11 +83,11 @@ main section .img img {
 }
 
 #frontend, #design, #cis {
-    background-color: rgba(83, 119, 154, 0.2);
+    background-color: rgba(83, 119, 154, 0.3);
 }
 
 .full-bleed {
-    box-shadow: 0 0 0 100vmax rgba(83, 119, 154, 0.2);
+    box-shadow: 0 0 0 100vmax rgba(83, 119, 154, 0.3);
     clip-path: inset(0 -100vmax);
 }
 

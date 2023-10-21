@@ -75,7 +75,7 @@ nav .links li a:hover:before {
         top: 0;
         width: 100%;
         text-align: center;
-        transition: .8s ease-in-out;
+        transition: .6s ease-in-out;
         padding: 1em 0;
         background-color: var(--light-background);
         margin: 80px auto;
@@ -118,7 +118,7 @@ nav .links li a:hover:before {
         margin: 0 auto;
         z-index: 10000;
         opacity: 0;
-        transition: .8s ease-in-out;
+        transition: .6s ease-in-out;
     }
     nav .icons.activated {
         display: flex;  

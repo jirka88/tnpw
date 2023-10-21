@@ -42,6 +42,9 @@ main section .references a {
     border: 1px solid white;
     transition: .4s ease-in-out;
 }
+main section .article {
+    max-inline-size: 110ch;
+}
 main section:nth-child(even) .references a:hover {
     background: white;
     color: black;

@@ -36,6 +36,7 @@ main .section .image img {
     max-width: 40em;
     height: auto;
     cursor: pointer;
+    border: 3px solid var(--primary-background);
 }
 
 .gallery {
