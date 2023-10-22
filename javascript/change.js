@@ -8,7 +8,7 @@ function change(id) {
         case 1:
             title.innerText = "IT Essentials"
             date.innerText = "červen 2020"
-            description.innerText = "Během tohoto kurzu jsem získal základní znalosti o hardwaru a jeho správě, a to včetně způsobů, jak správně zacházet s počítačovým vybavením a provádět základní opravy či jak složit počítač a na něm nainstalovat operační systém. Kromě toho jsem se seznámil s různými periferiemi, ktérá jsou připojená k zařízením, a naučil jsem se, jak je nastavit a spravovat. V další části kurzu byl i úvod do počítačových sítích. "
+            description.innerText = "Během tohoto kurzu jsem získal základní znalosti o hardwaru a jeho správě, a to včetně způsobů, jak správně zacházet s počítačovým vybavením a provádět základní opravy či jak složit počítač a na něm nainstalovat operační systém. Kromě toho jsem se seznámil s různými periferiemi, která jsou připojená k zařízením, a naučil jsem se, jak je nastavit a spravovat. V další části kurzu byl i úvod do počítačových sítích. "
             image.src = "/img/certificates/ItEssentials.jpg";
             image.alt = "Cisco IT Essentials"
             break;

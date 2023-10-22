@@ -18,6 +18,10 @@ main section .info, main section .img {
     flex: 50%;
 }
 
+main section p {
+    max-inline-size: 110ch;
+}
+
 main .container:last-child {
     gap: 1em;
 }
