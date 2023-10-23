@@ -115,6 +115,12 @@ main section:nth-child(odd) .references a {
     .foto-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
+    .xl-caption-none {
+        text-indent: 0;
+    }
+    .xl-caption-none:before {
+        all: unset;
+    }
 }
 @media print {
     main section {
