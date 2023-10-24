@@ -1,7 +1,7 @@
 .lightBox {
     position: fixed;
     top: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100vh;
     z-index: 9999;
@@ -10,34 +10,36 @@
     padding: 4em;
     align-items: center;
     justify-content: center;
-    >img {
-        width: 50%;
-        height: auto;
-        object-fit: contain;
-    
-    }
-    >button {
-        &.cancel {
-            position: fixed;
-            background: black !important;
-            top: 5%;
-            right: 5%;
-            cursor: pointer;
-            background: none;
-            outline: none;
-            border: none;
-            font-size: 2em;
-            color: white;
-        }
-    }
 }
+
+.lightBox img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.lightBox button.cancel {
+    position: fixed;
+    background: black !important;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 2em;
+    color: white;
+}
+
 .lightBox button.back {
     left: 5%;
 }
-.lightBox button.next  {
+
+.lightBox button.next {
     right: 5%;
 }
-.lightBox button.back,.lightBox button.next  {
+
+.lightBox button.back, .lightBox button.next {
     margin: 1em;
     padding: 1em;
     background: black;
@@ -48,30 +50,36 @@
     font-size: 1em;
     position: fixed;
 }
+
 @media only screen and (max-width: 1920px) {
     .lightBox img {
         width: 50em;
     }
 }
+
 @media only screen and (max-width: 1080px) {
     .lightBox img {
         width: 100%;
     }
+
     .lightBox button.cancel {
         right: 0;
         font-size: 2em;
     }
 }
+
 @media only screen and (max-height: 600px) {
     .lightBox img {
         width: 100vh !important;
     }
 }
+
 @media only screen and (max-width: 548px) {
     .lightBox {
         padding: 0;
         flex-direction: column;
     }
+
     .lightBox button.back, .lightBox button.next {
         position: static;
     }
