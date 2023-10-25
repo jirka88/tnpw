@@ -228,7 +228,7 @@ input, textarea {
     body {
         box-shadow: none !important;
     }
-    main {
+    main, section {
         padding: 0 !important;
         box-shadow: none !important;
     }
