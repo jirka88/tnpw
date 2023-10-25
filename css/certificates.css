@@ -123,7 +123,7 @@ main .section .image img {
     opacity: 0.8;
 }
 
-hr:first-child {
+.divider {
     border: 1px solid var(--primary-background);
 }
 
