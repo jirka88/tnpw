@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="small improves">
+    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="css compiler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,9 @@
       <workItem from="1697623377899" duration="903000" />
       <workItem from="1697637271904" duration="494000" />
       <workItem from="1698152620190" duration="667000" />
-      <workItem from="1698181369788" duration="144000" />
+      <workItem from="1698181369788" duration="163000" />
+      <workItem from="1698182044655" duration="171000" />
+      <workItem from="1698221312147" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
@@ -275,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698084088821</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fx">
+      <option name="closed" value="true" />
+      <created>1698181530295</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1698181530295</updated>
+    </task>
+    <task id="LOCAL-00023" summary="css compiler">
+      <option name="closed" value="true" />
+      <created>1698182211925</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1698182211925</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +329,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="impoves" />
     <MESSAGE value="small improves" />
-    <option name="LAST_COMMIT_MESSAGE" value="small improves" />
+    <MESSAGE value="fx" />
+    <MESSAGE value="css compiler" />
+    <option name="LAST_COMMIT_MESSAGE" value="css compiler" />
   </component>
 </project>
