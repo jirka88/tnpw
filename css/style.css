@@ -233,3 +233,20 @@
         width: 12em;
     }
 }
+@media only screen and (max-width: 320px) {
+    .introduction .title img{
+        min-height: unset;
+        min-width: unset;
+        max-width: unset;
+        max-height: unset;
+        height: 60vw;
+        width: 60vw;
+    }
+    .info .box .circle {
+        height: 60vw;
+        width: 60vw;
+    }
+    .info .box .circle i {
+        font-size: 15vw;
+    }
+}
