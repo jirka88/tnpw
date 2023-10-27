@@ -68,12 +68,6 @@
     }
 }
 
-@media only screen and (max-height: 600px) {
-    .lightBox img {
-        width: 100vh !important;
-    }
-}
-
 @media only screen and (max-width: 548px) {
     .lightBox {
         padding: 0;
