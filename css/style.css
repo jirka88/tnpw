@@ -28,8 +28,8 @@
 }
 .introduction .title img{
     display: none;
-    min-height: 15em;
-    min-width: 15em;
+    min-height: 14em;
+    min-width: 14em;
     max-width: 20em;
     max-height: 20em;
     height: 40vw;
@@ -231,5 +231,22 @@
     .info .box .circle { 
         height: 12em;
         width: 12em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .introduction .title img{
+        min-height: unset;
+        min-width: unset;
+        max-width: unset;
+        max-height: unset;
+        height: 60vw;
+        width: 60vw;
+    }
+    .info .box .circle {
+        height: 60vw;
+        width: 60vw;
+    }
+    .info .box .circle i {
+        font-size: 15vw;
     }
 }

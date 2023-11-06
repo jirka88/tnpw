@@ -1,6 +1,7 @@
 let index = 0;
 let images = document.querySelectorAll("main img")
 let image = document.querySelector(".lightBox img");
+
 const changeImage = (index) => {
     image.src = images[index].src;
     image.alt = images[index].alt;
@@ -9,6 +10,7 @@ const showLightBox = (indexLocal) => {
     document.querySelector("body").style.overflow = "hidden";
     document.querySelector(".lightBox").style.display = "flex";
     index = indexLocal;
+    changeImage(index);
 }
 
 function cancel() {
