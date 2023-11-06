@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="fix pdf">
+    <list default="true" id="20f6087a-3e2f-467e-88d8-741a63563a5d" name="Changes" comment="last up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/certificates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/certificates.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/learnApp/predmety2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/learnApp/sdileni.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/learnApp/uzivatele.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/certificates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +110,9 @@
       <workItem from="1698182044655" duration="171000" />
       <workItem from="1698221312147" duration="538000" />
       <workItem from="1698222128366" duration="287000" />
-      <workItem from="1698261601662" duration="481000" />
+      <workItem from="1698261601662" duration="496000" />
+      <workItem from="1698262432174" duration="151000" />
+      <workItem from="1698262899975" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="contact improve">
       <option name="closed" value="true" />
@@ -309,7 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698221851007</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="last up">
+      <option name="closed" value="true" />
+      <created>1698262098531</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1698262098531</updated>
+    </task>
+    <task id="LOCAL-00026" summary="last up">
+      <option name="closed" value="true" />
+      <created>1698262579415</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1698262579415</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +360,7 @@
     <MESSAGE value="fx" />
     <MESSAGE value="css compiler" />
     <MESSAGE value="fix pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix pdf" />
+    <MESSAGE value="last up" />
+    <option name="LAST_COMMIT_MESSAGE" value="last up" />
   </component>
 </project>
